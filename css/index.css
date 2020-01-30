@@ -157,6 +157,26 @@ footer {
 	margin-bottom: 3%;
 }
 
+@media (max-width: 800px) {
+	* {
+		color: red;
+	}
+
+	.top-content .big-circle {
+		display: none;
+	}
+
+	.nav-content {
+		flex-flow: column nowrap;
+	}
+	.nav-content .logo {
+		order: -1;
+		margin: 3% 0% 3% 0%;
+
+	}
+
+}
+
 
 
 
