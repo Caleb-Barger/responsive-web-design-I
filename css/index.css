@@ -63,4 +63,77 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+p {
+	line-height: 20px;
+}
+
 /* Your code starts here! */
+
+body {
+	width: 85%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+
+.nav-content {
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.nav-content nav {
+	width: 70%;
+	/*border: 1px solid red;*/
+	text-decoration: none;
+	color: black;
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-content {
+	border: 1px solid red;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 3% 0% 3% 0%;
+}
+
+.top-content .box1 {
+	border: 1px solid red;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	margin-right: 4%;
+}
+
+.middle-content {
+	border: 1px solid red;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.box {
+	margin: 4%;
+}
+
+.middle-content .row1 {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+
+
+
+
