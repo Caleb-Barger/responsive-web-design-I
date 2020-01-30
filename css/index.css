@@ -122,6 +122,7 @@ body {
 	border: 1px solid red;
 	display: flex;
 	flex-flow: column nowrap;
+	margin-bottom: 4%;
 }
 
 .box {
@@ -131,6 +132,29 @@ body {
 .middle-content .row1 {
 	display: flex;
 	flex-flow: row nowrap;
+}
+
+.middle-content .row2 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+
+}
+
+.middle-content .row3 {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.bottom-content {
+	border: 1px solid red;
+	margin-bottom: 3%;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 3%;
 }
 
 
